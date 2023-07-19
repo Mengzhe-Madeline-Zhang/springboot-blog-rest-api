@@ -6,6 +6,7 @@ Spring Boot, Spring security, Rest CRUD, MySQL, Data JPA, database authenticatio
 
 ### Feature:
 - Users can register with name, username, email and password;
+- Users cannot register with the same username or email already in the database;
 - Users can log in with username or email and password;
 - Users have roles of ADMIN and USER;
 - All users can get all posts and get a post by id;
