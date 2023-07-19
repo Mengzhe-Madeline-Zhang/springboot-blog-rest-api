@@ -1,17 +1,17 @@
-###Spring Boot Blog REST API Proof of Concept
+### Spring Boot Blog REST API Proof of Concept
 This is a blog rest api with posts CRUD and user login & register functions and MySQL database
 
-#Technology: 
+# Technology: 
 Spring Boot, Spring security, Rest CRUD, MySQL, Data JPA, database authentication, JWT, Junit5, Mockito 
 
-#Feature:
+# Feature:
 - Users can register with name, username, email and password;
 - Users can log in with username or email and password;
 - Users have roles of ADMIN and USER;
 - All users can get all posts and get a post by id;
 - Only ADMIN user can create, update and delete posts.
 
-#API:
+# API:
 - User register by POST request:
 `http://localhost:8080/api/auth/register`
 or
@@ -31,6 +31,6 @@ or
 - Delete a post by DELETE request:
 `http://localhost:8080/api/posts/<id>`
 
-#MySQL database form:
+# MySQL database form:
 
-#Test with Postman:
+# Test with Postman:
