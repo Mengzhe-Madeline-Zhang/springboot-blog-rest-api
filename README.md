@@ -34,7 +34,7 @@ or
 
 ### MySQL database form:
 - Table
-![table](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/commit/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec#diff-6b65f34646012b80e03caa818a37cb83504154b6fd230a43a3b74acec129612c)
+![table](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/Table.png)
 - Posts Table
 - Roles Table
 - Users Table
