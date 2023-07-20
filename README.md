@@ -33,5 +33,18 @@ or
 `http://localhost:8080/api/posts/<id>`
 
 ### MySQL database form:
-
+- Table
+![table](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/commit/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec#diff-6b65f34646012b80e03caa818a37cb83504154b6fd230a43a3b74acec129612c)
+- Posts Table
+- Roles Table
+- Users Table
+- Users_roles Table
 ### Test with Postman:
+- Get all posts
+- Get a post by id
+- New user register
+- Users cannot register with the same username or email existed in the database
+- Role_USER login
+- Users with Role_USER Bearer Token cannot create/update/delete a post
+- Role_ADMIN login
+- Users with Role_ADMIN Bearer Token can create/update/delete a post
