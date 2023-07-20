@@ -1,5 +1,5 @@
 # Spring Boot Blog REST API Proof of Concept
-This is a blog rest api with posts CRUD and user login & register functions and MySQL database
+This is a blog rest api with posts CRUD and user login & register functions using MySQL database
 
 ### Technology: 
 Spring Boot, Spring security, Rest CRUD, MySQL, PasswordEncoder, Data JPA, database authentication, JWT, Junit5, Mockito 
