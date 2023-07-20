@@ -36,15 +36,30 @@ or
 - Table
 ![table](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/Table.png)
 - Posts Table
+  ![post table](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/posts.png)
 - Roles Table
+  ![role table](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/roles.png)
 - Users Table
+  ![user table](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/users.png)
 - Users_roles Table
+  ![user_role table](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/user_roles.png)
 ### Test with Postman:
 - Get all posts
+  ![getallposts](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/getallposts.png)
 - Get a post by id
+  ![getpostbyid](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/getapostbyid.png)
 - New user register
+  ![newusersignup](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/register.png)
 - Users cannot register with the same username or email existed in the database
+  ![notsameusersignup](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/usercan'tbethesame.png)
 - Role_USER login
+  ![userlogin](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/userlogin.png)
 - Users with Role_USER Bearer Token cannot create/update/delete a post
+  ![usercannotdeletepost]()
 - Role_ADMIN login
+  ![adminlogin](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/adminuserlogin.png)
 - Users with Role_ADMIN Bearer Token can create/update/delete a post
+  ![admincreatepost]()
+  ![adminupdatepost](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/admincanupdate.png)
+  ![admindeletepost](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/admincandelete.png)
+
