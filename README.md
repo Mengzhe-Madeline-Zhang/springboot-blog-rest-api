@@ -33,36 +33,67 @@ or
 - Delete a post by DELETE request:  
 `http://localhost:8080/api/posts/<id>`  
 
-### MySQL database form:
-- Table  
-  ![table](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/Table.png)
-- Posts Table  
-  ![post table](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/posts.png)
-- Roles Table  
-  ![role table](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/roles.png)
-- Users Table  
-  ![user table](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/users.png)
-- Users_roles Table  
-  ![user_role table](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/user_roles.png)
-### Test with Postman:
-- Get all posts
-  ![getallposts](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/getallposts.png)
-- Get a post by id
-  ![getpostbyid](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/getapostbyid.png)
-- New user register
-  ![newusersignup](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/register.png)
-- Users cannot register with the same username or email existed in the database
-  ![notsameusersignup](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/usercan'tbethesame.png)
-- User without right username/email/password cannot sign in
-  ![cannotsignin](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/dev/img/loginusernamenotfound.png)
-- Role_USER login
-  ![userlogin](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/userlogin.png)
-- Users with Role_USER Bearer Token cannot create/update/delete a post
-  ![usercannotdeletepost](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/dev/img/usercannotdelete.png)
-- Role_ADMIN login
-  ![adminlogin](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/adminuserlogin.png)
-- Users with Role_ADMIN Bearer Token can create/update/delete a post
-  ![admincreatepost](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/dev/img/admincancreate.png)
-  ![adminupdatepost](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/admincanupdate.png)
-  ![admindeletepost](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/admincandelete.png)
+[comment]: <> (### MySQL database form:)
+
+[comment]: <> (- Table  )
+
+[comment]: <> (  ![table]&#40;https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/Table.png&#41;)
+
+[comment]: <> (- Posts Table  )
+
+[comment]: <> (  ![post table]&#40;https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/posts.png&#41;)
+
+[comment]: <> (- Roles Table  )
+
+[comment]: <> (  ![role table]&#40;https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/roles.png&#41;)
+
+[comment]: <> (- Users Table  )
+
+[comment]: <> (  ![user table]&#40;https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/users.png&#41;)
+
+[comment]: <> (- Users_roles Table  )
+
+[comment]: <> (  ![user_role table]&#40;https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/user_roles.png&#41;)
+
+[comment]: <> (### Test with Postman:)
+
+[comment]: <> (- Get all posts)
+
+[comment]: <> (  ![getallposts]&#40;https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/getallposts.png&#41;)
+
+[comment]: <> (- Get a post by id)
+
+[comment]: <> (  ![getpostbyid]&#40;https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/getapostbyid.png&#41;)
+
+[comment]: <> (- New user register)
+
+[comment]: <> (  ![newusersignup]&#40;https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/register.png&#41;)
+
+[comment]: <> (- Users cannot register with the same username or email existed in the database)
+
+[comment]: <> (  ![notsameusersignup]&#40;https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/usercan'tbethesame.png&#41;)
+
+[comment]: <> (- User without right username/email/password cannot sign in)
+
+[comment]: <> (  ![cannotsignin]&#40;https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/dev/img/loginusernamenotfound.png&#41;)
+
+[comment]: <> (- Role_USER login)
+
+[comment]: <> (  ![userlogin]&#40;https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/userlogin.png&#41;)
+
+[comment]: <> (- Users with Role_USER Bearer Token cannot create/update/delete a post)
+
+[comment]: <> (  ![usercannotdeletepost]&#40;https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/dev/img/usercannotdelete.png&#41;)
+
+[comment]: <> (- Role_ADMIN login)
+
+[comment]: <> (  ![adminlogin]&#40;https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/adminuserlogin.png&#41;)
+
+[comment]: <> (- Users with Role_ADMIN Bearer Token can create/update/delete a post)
+
+[comment]: <> (  ![admincreatepost]&#40;https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/dev/img/admincancreate.png&#41;)
+
+[comment]: <> (  ![adminupdatepost]&#40;https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/admincanupdate.png&#41;)
+
+[comment]: <> (  ![admindeletepost]&#40;https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/admincandelete.png&#41;)
 
