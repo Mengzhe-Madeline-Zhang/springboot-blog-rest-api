@@ -33,27 +33,27 @@ or
 - Delete a post by DELETE request:  
 `http://localhost:8080/api/posts/<id>`  
 
-[comment]: <> (### MySQL database form:)
+### MySQL database form:
 
-[comment]: <> (- Table  )
+- Table  
 
-[comment]: <> (  ![table]&#40;https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/Table.png&#41;)
+  ![table](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/Table.png)
 
-[comment]: <> (- Posts Table  )
+- Posts Table  
 
-[comment]: <> (  ![post table]&#40;https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/posts.png&#41;)
+  ![post table](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/posts.png)
 
-[comment]: <> (- Roles Table  )
+- Roles Table  
 
-[comment]: <> (  ![role table]&#40;https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/roles.png&#41;)
+  ![role table](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/roles.png)
 
-[comment]: <> (- Users Table  )
+- Users Table  
 
-[comment]: <> (  ![user table]&#40;https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/users.png&#41;)
+  ![user table](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/users.png)
 
-[comment]: <> (- Users_roles Table  )
+- Users_roles Table  
 
-[comment]: <> (  ![user_role table]&#40;https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/user_roles.png&#41;)
+  ![user_role table](https://github.com/Mengzhe-Madeline-Zhang/Springboot_POC_Project/blob/cd8a5920247e83dc55a2cd440b4a78f32e82e0ec/img/user_roles.png)
 
 [comment]: <> (### Test with Postman:)
 
